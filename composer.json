@@ -1,0 +1,22 @@
+{
+    "name": "mirdrack/queue-listener",
+    "description": "Simple queue listener",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mirdrack",
+            "email": "mirdrack@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Mirdrack\\QueueListener\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "require": {}
+}
