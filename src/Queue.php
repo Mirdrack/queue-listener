@@ -1,12 +1,15 @@
 <?php
 namespace Mirdrack\QueueListener;
+
 /**
 * 
 */
 class Queue
-{	
-	public function test()
-	{
-		return 'Queue';
-	}
+{
+    private $queueName;
+
+    public function __construct($queueName)
+    {
+        $this->queueName = $queueName
+    }
 }
