@@ -3,7 +3,7 @@ namespace Mirdrack\QueueListener;
 
 interface QueueInterface
 {
-	public function getMessage();
+    public function getMessage();
 
-	public function release($message);
+    public function release($message);
 }
